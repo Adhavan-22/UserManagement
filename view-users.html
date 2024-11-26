@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View Users</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="nav-buttons">
+      <a href="view-users.html">View Users</a>
+      <a href="add-user.html">Add User</a>
+      <a href="update-user.html">Update User</a>
+      <a href="delete-user.html">Delete User</a>
+    
+    </div>
+  </header>
+
+  <main>
+    <h1 class="thead">User Management</h1>
+    <table id="userTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+          <th>Department</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- User rows will be added dynamically -->
+      </tbody>
+    </table>
+    <!-- Pagination Container -->
+<div id="pagination"></div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
